@@ -40,14 +40,6 @@
         <div class="preloader-heading">
             <div class="load-text">
                 <span>Famadani</span>
-                {{-- <span>|</span>
-                <span>l</span>
-                <span>o</span>
-                <span>a</span>
-                <span>d</span>
-                <span>i</span>
-                <span>n</span>
-                <span>g</span> --}}
             </div>
         </div>
     </div>
