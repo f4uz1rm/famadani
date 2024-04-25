@@ -39,13 +39,15 @@
 
         <div class="preloader-heading">
             <div class="load-text">
-                <span>L</span>
+                <span>Famadani</span>
+                {{-- <span>|</span>
+                <span>l</span>
                 <span>o</span>
                 <span>a</span>
                 <span>d</span>
                 <span>i</span>
                 <span>n</span>
-                <span>g</span>
+                <span>g</span> --}}
             </div>
         </div>
     </div>
@@ -283,7 +285,7 @@
                                 data-wow-delay=".7s">
                                 <div class="left-box d-flex flex-wrap align-items-center">
                                     <span class="number">03</span>
-                                    <h3 class="service-title">UI/UX Design</h3>
+                                    <h3 class="service-title">UI Design</h3>
                                 </div>
                                 <div class="right-box">
                                     <p>I break down complex user experinece problems to create integritiy focussed
