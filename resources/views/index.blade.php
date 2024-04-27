@@ -163,7 +163,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="hero-content-box">
-                            <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">I am Fauzi</span>
+                            <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">I am Fauzi Rizky Mauladani</span>
                             <h1 class="hero-title wow fadeInLeft" data-wow-delay="1.2s">Web Developer +<br>UI/UX
                                 Designer
                             </h1>
@@ -182,7 +182,7 @@
                                     <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                                     {{-- <li><a href="#"><i class="fa-light fa-basketball"></i></a></li> --}}
                                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://instagram.com/fauzimauladani"><i class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                         </div>
                         <div class="col-6 col-lg-3">
                             <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-                                <div class="number"><span class="odometer" data-count="50">0</span></div>
+                                <div class="number"><span class="odometer" data-count="30">0</span></div>
                                 <div class="text">Happy <br>Clients</div>
                             </div>
                         </div>
@@ -452,7 +452,7 @@
                             <div class="button-group filter-button-group">
                                 <button data-filter="*" class="active">All</button>
                                 <button data-filter=".uxui">UX/UI</button>
-                                <button data-filter=".branding">Branding</button>
+                                {{-- <button data-filter=".branding">Branding</button> --}}
                                 <button data-filter=".mobile-app">Apps</button>
                                 <div class="active-bg"></div>
                             </div>
@@ -461,7 +461,7 @@
                         <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
                             <div class="portfolio-sizer"></div>
                             <div class="gutter-sizer"></div>
-                            <div class="portfolio-item branding">
+                            {{-- <div class="portfolio-item branding">
                                 <div class="image-box">
                                     <img src="assets/img/portfolio/2.jpg" alt="">
                                 </div>
@@ -472,7 +472,7 @@
                                     <button data-mfp-src="#portfolio-wrapper"
                                         class="portfolio-link modal-popup"></button>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="portfolio-item uxui">
                                 <div class="image-box">
                                     <img src="assets/img/portfolio/1.jpg" alt="">
@@ -666,36 +666,27 @@
                                 <div class="time">
                                     2022 - Present
                                 </div>
-                                <h3 class="resume-title">Lead Developer</h3>
+                                <h3 class="resume-title">Fullstack Developer</h3>
                                 <div class="institute">
-                                    Blockdots, London
+                                    PT Champ Resto Indonesia Tbk, Bandung
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".5s">
                                 <div class="time">
                                     2021 - 2022
                                 </div>
-                                <h3 class="resume-title">Full Stack Web Developer</h3>
+                                <h3 class="resume-title">Research and Development </h3>
                                 <div class="institute">
-                                    Parsons, The New School
+                                    PT. Gerlink Utama Mandiri, Bandung
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInLeft" data-wow-delay=".6s">
                                 <div class="time">
-                                    2020 - 2021
+                                    2017
                                 </div>
-                                <h3 class="resume-title">UI Designer</h3>
+                                <h3 class="resume-title">IT Support ( Magang )</h3>
                                 <div class="institute">
-                                    House of Life, Leeds
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInLeft" data-wow-delay=".7s">
-                                <div class="time">
-                                    2018 - 2020
-                                </div>
-                                <h3 class="resume-title">Junior Graphics Designer</h3>
-                                <div class="institute">
-                                    Theme Junction, Bursa
+                                    PT Telkom Indonesia, Cabang Cimahi
                                 </div>
                             </div>
                         </div>
@@ -709,38 +700,20 @@
                         <div class="resume-widget">
                             <div class="resume-item wow fadeInRight" data-wow-delay=".5s">
                                 <div class="time">
-                                    2020 - 2023
+                                    2016 - 2021
                                 </div>
-                                <h3 class="resume-title">Programming course</h3>
+                                <h3 class="resume-title">S1 - Teknik Informatika</h3>
                                 <div class="institute">
-                                    Harverd University
+                                    Universitas Nasional Pasim 
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInRight" data-wow-delay=".6s">
                                 <div class="time">
-                                    2016 - 2020
+                                    2014 - 2016
                                 </div>
-                                <h3 class="resume-title">Graphic design course</h3>
+                                <h3 class="resume-title">Rekayasa Perangkat Lunak</h3>
                                 <div class="institute">
-                                    University of Denmark
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInRight" data-wow-delay=".7s">
-                                <div class="time">
-                                    2012 - 2015
-                                </div>
-                                <h3 class="resume-title">Web design course</h3>
-                                <div class="institute">
-                                    University of California
-                                </div>
-                            </div>
-                            <div class="resume-item wow fadeInRight" data-wow-delay=".8s">
-                                <div class="time">
-                                    2010 - 2011
-                                </div>
-                                <h3 class="resume-title">Design & Technology</h3>
-                                <div class="institute">
-                                    Parsons, The New School
+                                    SMK TI Garuda Nusantara 
                                 </div>
                             </div>
                         </div>
@@ -774,11 +747,11 @@
                                     <div class="icon-box">
                                         <img src="assets/img/icons/figma.svg" alt="">
                                     </div>
-                                    <div class="number">92%</div>
+                                    <div class="number">80%</div>
                                 </div>
                                 <p>Figma</p>
                             </div>
-                            <div class="skill-item wow fadeInUp" data-wow-delay=".4s">
+                            {{-- <div class="skill-item wow fadeInUp" data-wow-delay=".4s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
                                         <img src="assets/img/icons/sketch.svg" alt="">
@@ -786,34 +759,36 @@
                                     <div class="number">80%</div>
                                 </div>
                                 <p>Sketch</p>
-                            </div>
+                            </div> --}}
                             <div class="skill-item wow fadeInUp" data-wow-delay=".5s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="assets/img/icons/xd.svg" alt="">
+                                        <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" alt="">
                                     </div>
-                                    <div class="number">85%</div>
+                                    <div class="number">60%</div>
                                 </div>
-                                <p>XD</p>
+                                <p>Premier Pro</p>
                             </div>
                             <div class="skill-item wow fadeInUp" data-wow-delay=".6s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
                                         <img src="assets/img/icons/wp.svg" alt="">
                                     </div>
-                                    <div class="number">99%</div>
+                                    <div class="number">89%</div>
                                 </div>
                                 <p>WordPess</p>
                             </div>
                             <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="assets/img/icons/react.svg" alt="">
+                                        {{-- <img src="assets/img/icons/react.svg" alt=""> --}}
+                                        <img src="https://laravel.com/img/logomark.min.svg" alt="">
                                     </div>
                                     <div class="number">89%</div>
                                 </div>
-                                <p>React</p>
+                                <p>Laravel</p>
                             </div>
+                            
                             <div class="skill-item wow fadeInUp" data-wow-delay=".8s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
@@ -1030,7 +1005,7 @@
         <!-- TESTIMONIAL SECTION END -->
 
         <!-- BLOG SECTION STAR -->
-        <section class="blog-section" id="blog-section">
+        {{-- <section class="blog-section" id="blog-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -1108,7 +1083,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- BLOG SECTION END -->
 
         <!-- CONTACT SECTION START -->
@@ -1155,7 +1130,6 @@
                                             <div class="form_group">
                                                 <select name="service" id="service" class="tj-nice-select">
                                                     <option value="" selected disabled>Choose Service</option>
-                                                    <option value="braning">Branding Design</option>
                                                     <option value="web">Web Design</option>
                                                     <option value="uxui">UI/UX Design</option>
                                                     <option value="app">App Design</option>
@@ -1169,8 +1143,7 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="form_btn">
-                                                <button type="submit" class="btn tj-btn-primary">Send
-                                                    Message</button>
+                                                <button type="submit" class="btn tj-btn-primary">Kirim Pesan</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1183,7 +1156,7 @@
                         class="col-lg-5 offset-lg-1 col-md-5  d-flex flex-wrap align-items-center  order-1 order-md-2">
                         <div class="contact-info-list">
                             <ul class="ul-reset">
-                                <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
+                                {{-- <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
                                     data-wow-delay=".4s">
                                     <div class="icon-box">
                                         <i class="flaticon-phone-call"></i>
@@ -1192,7 +1165,7 @@
                                         <p>Phone</p>
                                         <a href="tel:0123456789">+01 123 654 8096</a>
                                     </div>
-                                </li>
+                                </li> --}}
                                 <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
                                     data-wow-delay=".5s">
                                     <div class="icon-box">
@@ -1200,7 +1173,7 @@
                                     </div>
                                     <div class="text-box">
                                         <p>Email</p>
-                                        <a href="mailto:mail@mail.com">gerolddesign@mail.com</a>
+                                        <a href="mailto:mail@mail.com">f4uz1rm@gmail.com</a>
                                     </div>
                                 </li>
                                 <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -1210,7 +1183,7 @@
                                     </div>
                                     <div class="text-box">
                                         <p>Address</p>
-                                        <a href="#">Warne Park Street Pine, <br>FL 33157, New York</a>
+                                        <a href="#">Bandung, <br>Jawa Barat, Indonesia</a>
                                     </div>
                                 </li>
                             </ul>
@@ -1243,7 +1216,7 @@
                         </nav>
                     </div>
                     <div class="copy-text">
-                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">ThemeJunction</a></p>
+                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">Fauzi Rizky Mauladani</a></p>
                     </div>
                 </div>
             </div>
