@@ -480,8 +480,8 @@
                                     <img src="{{ asset('assets/img/portfolio/1.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
-                                    <h3 class="portfolio-title">New Age</h3>
-                                    <p>Project was about precision and information.</p>
+                                    {{-- <h3 class="portfolio-title">New Age</h3> --}}
+                                    <p>Design Online Shop Boneka97.</p>
                                     <i class="flaticon-up-right-arrow"></i>
                                     <button data-mfp-src="#portfolio-wrapper"
                                         class="portfolio-link modal-popup"></button>
@@ -492,20 +492,20 @@
                                     <img src="{{ asset('assets/img/portfolio/3.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
-                                    <h3 class="portfolio-title">Sebastian</h3>
-                                    <p>Project was about precision and information.</p>
+                                    {{-- <h3 class="portfolio-title">Web Company Profile</h3> --}}
+                                    <p>Pondok Pesantren Almas'udiyah Cimahi.</p>
                                     <i class="flaticon-up-right-arrow"></i>
                                     <button data-mfp-src="#portfolio-wrapper"
                                         class="portfolio-link modal-popup"></button>
                                 </div>
                             </div>
-                            <div class="portfolio-item branding">
+                            <div class="portfolio-item mobile-app">
                                 <div class="image-box">
                                     <img src="{{ asset('assets/img/portfolio/4.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
-                                    <h3 class="portfolio-title">Mochnix</h3>
-                                    <p>Project was about precision and information.</p>
+                                    {{-- <h3 class="portfolio-title">Mochnix</h3> --}}
+                                    <p>PT CAL Tour and Travel Bandung.</p>
                                     <i class="flaticon-up-right-arrow"></i>
                                     <button data-mfp-src="#portfolio-wrapper"
                                         class="portfolio-link modal-popup"></button>
@@ -826,12 +826,12 @@
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
                                         <div class="logo-box">
-                                            <img src="{{ asset('assets/img/testimonials/logo/1.png') }}"
+                                            <img src="{{ asset('assets/img/client/logo-almasudiyah.png') }}"
                                                 alt="">
                                         </div>
                                         <div class="image-box">
-                                            <img src="{{ asset('assets/img/testimonials/user/1.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/img/client/user-almasudiyah.jpg') }}"
+                                                alt="" width="100px" height="100px">
                                         </div>
                                     </div>
                                     <div class="icon-box">
@@ -864,10 +864,9 @@
                                             </defs>
                                         </svg>
                                     </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Brandon Fraser</h4>
-                                    <span class="designation">Senior Software Dev, Cosmic Sport</span>
+                                    <p class="quote">“Senang sekali bekerja sama dengan Bpk.Fauzi dalam pembuatan Web Ponpes, Terimakasih. </p>
+                                    <h4 class="name fs-7">Moch Taufiqurrohman,.S.Pd,.S.sos</h4>
+                                    <span class="designation">Pemilik Pondok Pesantren Al-Mas'udiyah Cimahi</span>
                                 </div>
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
@@ -910,10 +909,9 @@
                                             </defs>
                                         </svg>
                                     </div>
-                                    <p class="quote">“Taylor is a professional Designer he really helps my business by
-                                        providing value to my business. </p>
-                                    <h4 class="name">Tim Bailey</h4>
-                                    <span class="designation">SEO Specialist, Theme Junction</span>
+                                    <p class="quote">“Keren sekali, pembuatan app nya cepat dan sangat bagus. </p>
+                                    <h4 class="name fs-7">Bu Ina</h4>
+                                    <span class="designation">Pemilik PT Cahaya Anugrah Lancar</span>
                                 </div>
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
