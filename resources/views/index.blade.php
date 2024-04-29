@@ -62,7 +62,7 @@
 
                     <div class="logo-box">
                         <a href="index.html">
-                            <img src="assets/img/logo/logo.png" alt="">
+                            <img src="{{asset('assets/img/logo/logo.png')}}" alt="">
                         </a>
                     </div>
 
@@ -108,7 +108,7 @@
 
                     <div class="logo-box">
                         <a href="index.html">
-                            <img src="assets/img/logo/logo.png" alt="">
+                            <img src="{{asset('assets/img/logo/logo.png')}}" alt="">
                         </a>
                     </div>
 
@@ -163,13 +163,14 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="hero-content-box">
-                            <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">I am Fauzi Rizky Mauladani</span>
+                            <span class="hero-sub-title wow fadeInLeft" data-wow-delay="1.1s">I am Fauzi Rizky
+                                Mauladani</span>
                             <h1 class="hero-title wow fadeInLeft" data-wow-delay="1.2s">Web Developer +<br>UI/UX
                                 Designer
                             </h1>
 
                             <div class="hero-image-box d-md-none text-center wow fadeInRight" data-wow-delay="1.3s">
-                                <img src="assets/img/hero/foto_pp.jpg" alt="">
+                                <img src="{{ asset('assets/img/hero/foto_pp.jpg') }}" alt="">
                             </div>
 
                             <p class="lead wow fadeInLeft" data-wow-delay="1.4s">I break down complex user experinece
@@ -182,14 +183,15 @@
                                     <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                                     {{-- <li><a href="#"><i class="fa-light fa-basketball"></i></a></li> --}}
                                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://instagram.com/fauzimauladani"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://instagram.com/fauzimauladani"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 d-none d-md-block">
                         <div class="hero-image-box text-center wow fadeInRight" data-wow-delay="1.5s">
-                            <img src="assets/img/hero/foto_pp.jpg" alt="">
+                            <img src="{{ asset('assets/img/hero/foto_pp.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -312,7 +314,7 @@
         <!-- start: Service Popup -->
         <div id="service-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/services/modal-img.jpg" alt="">
+                <img src="{{ asset('assets/img/services/modal-img.jpg') }}" alt="">
             </div>
 
             <div class="popup_modal_content">
@@ -475,7 +477,7 @@
                             </div> --}}
                             <div class="portfolio-item uxui">
                                 <div class="image-box">
-                                    <img src="assets/img/portfolio/1.jpg" alt="">
+                                    <img src="{{ asset('assets/img/portfolio/1.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
                                     <h3 class="portfolio-title">New Age</h3>
@@ -487,7 +489,7 @@
                             </div>
                             <div class="portfolio-item mobile-app">
                                 <div class="image-box">
-                                    <img src="assets/img/portfolio/3.jpg" alt="">
+                                    <img src="{{ asset('assets/img/portfolio/3.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
                                     <h3 class="portfolio-title">Sebastian</h3>
@@ -499,7 +501,7 @@
                             </div>
                             <div class="portfolio-item branding">
                                 <div class="image-box">
-                                    <img src="assets/img/portfolio/4.jpg" alt="">
+                                    <img src="{{ asset('assets/img/portfolio/4.jpg') }}" alt="">
                                 </div>
                                 <div class="content-box">
                                     <h3 class="portfolio-title">Mochnix</h3>
@@ -519,7 +521,7 @@
         <!-- start: Portfolio Popup -->
         <div id="portfolio-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide">
             <div class="popup_modal_img">
-                <img src="./assets/img/portfolio/modal-img.jpg" alt="">
+                <img src="{{ asset('assets/img/portfolio/modal-img.jpg') }}" alt="">
             </div>
 
             <div class="popup_modal_content">
@@ -556,16 +558,16 @@
 
                 <div class="portfolio_gallery owl-carousel">
                     <div class="gallery_item">
-                        <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt="">
+                        <img src="{{asset('assets/img/portfolio-gallery/p-gallery-1.jpg')}}" alt="">
                     </div>
                     <div class="gallery_item">
-                        <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt="">
+                        <img src="{{asset('assets/img/portfolio-gallery/p-gallery-2.jpg')}}" alt="">
                     </div>
                     <div class="gallery_item">
-                        <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt="">
+                        <img src="{{asset('assets/img/portfolio-gallery/p-gallery-3.jpg')}}" alt="">
                     </div>
                     <div class="gallery_item">
-                        <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt="">
+                        <img src="{{asset('assets/img/portfolio-gallery/p-gallery-4.jpg')}}" alt="">
                     </div>
                 </div>
 
@@ -704,7 +706,7 @@
                                 </div>
                                 <h3 class="resume-title">S1 - Teknik Informatika</h3>
                                 <div class="institute">
-                                    Universitas Nasional Pasim 
+                                    Universitas Nasional Pasim
                                 </div>
                             </div>
                             <div class="resume-item wow fadeInRight" data-wow-delay=".6s">
@@ -713,7 +715,7 @@
                                 </div>
                                 <h3 class="resume-title">Rekayasa Perangkat Lunak</h3>
                                 <div class="institute">
-                                    SMK TI Garuda Nusantara 
+                                    SMK TI Garuda Nusantara
                                 </div>
                             </div>
                         </div>
@@ -745,7 +747,7 @@
                             <div class="skill-item wow fadeInUp" data-wow-delay=".3s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="assets/img/icons/figma.svg" alt="">
+                                        <img src="{{ asset('assets/img/icons/figma.svg') }}" alt="">
                                     </div>
                                     <div class="number">80%</div>
                                 </div>
@@ -763,7 +765,8 @@
                             <div class="skill-item wow fadeInUp" data-wow-delay=".5s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" alt="">
+                                        <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg"
+                                            alt="">
                                     </div>
                                     <div class="number">60%</div>
                                 </div>
@@ -772,7 +775,7 @@
                             <div class="skill-item wow fadeInUp" data-wow-delay=".6s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="assets/img/icons/wp.svg" alt="">
+                                        <img src="{{ asset('assets/img/icons/wp.svg') }}" alt="">
                                     </div>
                                     <div class="number">89%</div>
                                 </div>
@@ -788,11 +791,11 @@
                                 </div>
                                 <p>Laravel</p>
                             </div>
-                            
+
                             <div class="skill-item wow fadeInUp" data-wow-delay=".8s">
                                 <div class="skill-inner">
                                     <div class="icon-box">
-                                        <img src="assets/img/icons/js.svg" alt="">
+                                        <img src="{{ asset('assets/img/icons/js.svg') }}" alt="">
                                     </div>
                                     <div class="number">93%</div>
                                 </div>
@@ -823,10 +826,12 @@
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
                                         <div class="logo-box">
-                                            <img src="assets/img/testimonials/logo/1.png" alt="">
+                                            <img src="{{ asset('assets/img/testimonials/logo/1.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="image-box">
-                                            <img src="assets/img/testimonials/user/1.jpg" alt="">
+                                            <img src="{{ asset('assets/img/testimonials/user/1.jpg') }}"
+                                                alt="">
                                         </div>
                                     </div>
                                     <div class="icon-box">
@@ -867,10 +872,12 @@
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
                                         <div class="logo-box">
-                                            <img src="assets/img/testimonials/logo/2.png" alt="">
+                                            <img src="{{ asset('assets/img/testimonials/logo/2.png') }}"
+                                                alt="">
                                         </div>
                                         <div class="image-box">
-                                            <img src="assets/img/testimonials/user/2.jpg" alt="">
+                                            <img src="{{ asset('assets/img/testimonials/user/2.jpg') }}"
+                                                alt="">
                                         </div>
                                     </div>
                                     <div class="icon-box">
@@ -911,10 +918,10 @@
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
                                         <div class="logo-box">
-                                            <img src="assets/img/testimonials/logo/1.png" alt="">
+                                            <img src="{{asset('assets/img/testimonials/logo/1.png')}}" alt="">
                                         </div>
                                         <div class="image-box">
-                                            <img src="assets/img/testimonials/user/1.jpg" alt="">
+                                            <img src="{{asset('assets/img/testimonials/user/1.jpg')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="icon-box">
@@ -955,10 +962,10 @@
                                 <div class="testimonial-item">
                                     <div class="top-area d-flex flex-wrap justify-content-between">
                                         <div class="logo-box">
-                                            <img src="assets/img/testimonials/logo/2.png" alt="">
+                                            <img src="{{asset('assets/img/testimonials/logo/2.png')}}" alt="">
                                         </div>
                                         <div class="image-box">
-                                            <img src="assets/img/testimonials/user/2.jpg" alt="">
+                                            <img src="{{asset('assets/img/testimonials/user/2.jpg')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="icon-box">
@@ -1201,7 +1208,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="footer-logo-box">
-                        <a href="#"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <a href="#"><img src="{{asset('assets/img/logo/logo.png')}}" alt=""></a>
                     </div>
                     <div class="footer-menu">
                         <nav>
@@ -1216,7 +1223,8 @@
                         </nav>
                     </div>
                     <div class="copy-text">
-                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">Fauzi Rizky Mauladani</a></p>
+                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">Fauzi Rizky
+                                Mauladani</a></p>
                     </div>
                 </div>
             </div>
